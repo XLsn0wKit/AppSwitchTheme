@@ -1,0 +1,12 @@
+实现步骤：
+1. 拖入图片资源文件image， 皮肤Skins
+2. 实现UITabBarController功能
+   创建theme.plist
+3. 创建主题管理器
+4. 实现主题对应的UITableView
+  自定义主题空间 ThemeTabBarItem
+  创建UIFactory
+  修改initTabBarUI
+  实现navigationBar主题切换 BaseViewController
+  记录用户选择的主题，用户下次启动时仍是上次选中的主题
+

@@ -1,0 +1,17 @@
+{
+    "colors":{
+        "c1":"f42f1b",
+        "c2":"ffffff",
+        "c3":"c9c9c9",
+        "c4":"ffffff"
+    },
+    "fonts":{
+        "f1":"9",
+        "f2":"8"
+    },
+    "images":{
+        "pic1":"navBar",
+        "pic2":"information-blue",
+        "pic3":"Group 38"
+    }
+}

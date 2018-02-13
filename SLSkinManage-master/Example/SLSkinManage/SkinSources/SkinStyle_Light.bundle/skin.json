@@ -1,0 +1,17 @@
+{
+    "colors":{
+        "c1":"ffffff",
+        "c2":"f6f6f6",
+        "c3":"ffffff",
+        "c4":"111111"
+    },
+    "fonts":{
+        "f1":"8",
+        "f2":"9"
+    },
+    "images":{
+        "pic1":"navBar",
+        "pic2":"information",
+        "pic3":"Group 9"
+    }
+}
