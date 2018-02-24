@@ -1,6 +1,0 @@
-framework module Pods_SLSkinManage_Tests {
-  umbrella header "Pods-SLSkinManage_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

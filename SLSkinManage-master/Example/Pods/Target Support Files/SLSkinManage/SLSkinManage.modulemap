@@ -1,6 +1,0 @@
-framework module SLSkinManage {
-  umbrella header "SLSkinManage-umbrella.h"
-
-  export *
-  module * { export * }
-}
