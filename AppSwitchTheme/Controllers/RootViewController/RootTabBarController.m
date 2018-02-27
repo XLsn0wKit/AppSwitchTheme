@@ -3,6 +3,7 @@
 #import "ThemeManager.h"
 #import "BaseNavigationController.h"
 #import "SwitchThemeController.h"
+#import "ViewController.h"
 
 @interface RootTabBarController ()<UITabBarControllerDelegate, UIGestureRecognizerDelegate>
 
@@ -36,7 +37,7 @@
     SwitchThemeController *controller = [[SwitchThemeController alloc] init];
     [self addChildViewController:controller title:@"社区" image:@"tab_community_n" selectedImage:@"tab_community_s"];
     
-    UIViewController *shopController = [[UIViewController alloc] init];
+    ViewController *shopController = [[ViewController alloc] init];
     [self addChildViewController:shopController title:@"商城" image:@"tab_store_n" selectedImage:@"tab_store_s"];
 }
 

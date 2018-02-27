@@ -1,7 +1,23 @@
 
 #import "NSObject+DeallocBlock.h"
 #import <objc/runtime.h>
-#import "DeallocBlockExecutor.h"
+
+@implementation DeallocBlockExecutor
+
++ (instancetype)executorWithDeallocBlock:(void (^)(void))deallocBlock {
+    DeallocBlockExecutor *exe = [DeallocBlockExecutor new];
+    exe.deallocBlock = deallocBlock;
+    return exe;
+}
+
+- (void)dealloc {
+    if (self.deallocBlock) {
+        self.deallocBlock();
+        self.deallocBlock = nil;
+    }
+}
+
+@end
 
 static void *kNSObject_DeallocBlocks;
 

@@ -21,7 +21,6 @@
 		CD1A923020451F8B00A0BFAC /* UIView+Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1A921D20451F8A00A0BFAC /* UIView+Theme.m */; };
 		CD1A923120451F8B00A0BFAC /* UIImage+KIAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1A921E20451F8A00A0BFAC /* UIImage+KIAdditions.m */; };
 		CD1A923220451F8B00A0BFAC /* UISearchBar+Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1A921F20451F8A00A0BFAC /* UISearchBar+Theme.m */; };
-		CD1A923320451F8B00A0BFAC /* DeallocBlockExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1A922020451F8A00A0BFAC /* DeallocBlockExecutor.m */; };
 		CD1A923420451F8B00A0BFAC /* UIColor+KIAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1A922120451F8A00A0BFAC /* UIColor+KIAdditions.m */; };
 		CD1A923520451F8B00A0BFAC /* ThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1A922220451F8A00A0BFAC /* ThemeManager.m */; };
 		CD1A923620451F8B00A0BFAC /* UILabel+Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1A922320451F8A00A0BFAC /* UILabel+Theme.m */; };
@@ -73,7 +72,6 @@
 		CD1A921D20451F8A00A0BFAC /* UIView+Theme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Theme.m"; sourceTree = "<group>"; };
 		CD1A921E20451F8A00A0BFAC /* UIImage+KIAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KIAdditions.m"; sourceTree = "<group>"; };
 		CD1A921F20451F8A00A0BFAC /* UISearchBar+Theme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+Theme.m"; sourceTree = "<group>"; };
-		CD1A922020451F8A00A0BFAC /* DeallocBlockExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeallocBlockExecutor.m; sourceTree = "<group>"; };
 		CD1A922120451F8A00A0BFAC /* UIColor+KIAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KIAdditions.m"; sourceTree = "<group>"; };
 		CD1A922220451F8A00A0BFAC /* ThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeManager.m; sourceTree = "<group>"; };
 		CD1A922320451F8A00A0BFAC /* UILabel+Theme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Theme.m"; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 		CD1A922520451F8A00A0BFAC /* UIButton+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Theme.h"; sourceTree = "<group>"; };
 		CD1A922620451F8A00A0BFAC /* ThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeManager.h; sourceTree = "<group>"; };
 		CD1A922720451F8A00A0BFAC /* UIColor+KIAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KIAdditions.h"; sourceTree = "<group>"; };
-		CD1A922820451F8A00A0BFAC /* DeallocBlockExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeallocBlockExecutor.h; sourceTree = "<group>"; };
 		CD1A922920451F8A00A0BFAC /* UISearchBar+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+Theme.h"; sourceTree = "<group>"; };
 		CD1A922A20451F8A00A0BFAC /* UIImage+KIAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KIAdditions.h"; sourceTree = "<group>"; };
 		CD1A922B20451F8A00A0BFAC /* UIView+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Theme.h"; sourceTree = "<group>"; };
@@ -89,6 +86,7 @@
 		CD1A922D20451F8A00A0BFAC /* UILabel+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Theme.h"; sourceTree = "<group>"; };
 		CD1A922E20451F8A00A0BFAC /* UIButton+Theme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Theme.m"; sourceTree = "<group>"; };
 		CD1A922F20451F8A00A0BFAC /* NSObject+DeallocBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DeallocBlock.m"; sourceTree = "<group>"; };
+		CD1A9241204526A600A0BFAC /* ExtensionsHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionsHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,14 +140,7 @@
 				CD1A921C20451F8A00A0BFAC /* Theme */,
 				CD1A91DF20451F0F00A0BFAC /* AppDelegate.h */,
 				CD1A91E020451F0F00A0BFAC /* AppDelegate.m */,
-				CD1A921320451F5200A0BFAC /* BaseNavigationController.h */,
-				CD1A921120451F5200A0BFAC /* BaseNavigationController.m */,
-				CD1A921220451F5200A0BFAC /* RootTabBarController.h */,
-				CD1A921520451F5300A0BFAC /* RootTabBarController.m */,
-				CD1A921420451F5200A0BFAC /* SwitchThemeController.h */,
-				CD1A921620451F5300A0BFAC /* SwitchThemeController.m */,
-				CD1A91E220451F0F00A0BFAC /* ViewController.h */,
-				CD1A91E320451F0F00A0BFAC /* ViewController.m */,
+				CD1A923A2045211A00A0BFAC /* Controllers */,
 				CD1A91E520451F0F00A0BFAC /* Main.storyboard */,
 				CD1A91E820451F0F00A0BFAC /* Assets.xcassets */,
 				CD1A91EA20451F0F00A0BFAC /* LaunchScreen.storyboard */,
@@ -180,27 +171,89 @@
 		CD1A921C20451F8A00A0BFAC /* Theme */ = {
 			isa = PBXGroup;
 			children = (
-				CD1A921D20451F8A00A0BFAC /* UIView+Theme.m */,
-				CD1A921E20451F8A00A0BFAC /* UIImage+KIAdditions.m */,
-				CD1A921F20451F8A00A0BFAC /* UISearchBar+Theme.m */,
-				CD1A922020451F8A00A0BFAC /* DeallocBlockExecutor.m */,
-				CD1A922120451F8A00A0BFAC /* UIColor+KIAdditions.m */,
-				CD1A922220451F8A00A0BFAC /* ThemeManager.m */,
-				CD1A922320451F8A00A0BFAC /* UILabel+Theme.m */,
-				CD1A922420451F8A00A0BFAC /* NSObject+DeallocBlock.h */,
-				CD1A922520451F8A00A0BFAC /* UIButton+Theme.h */,
 				CD1A922620451F8A00A0BFAC /* ThemeManager.h */,
-				CD1A922720451F8A00A0BFAC /* UIColor+KIAdditions.h */,
-				CD1A922820451F8A00A0BFAC /* DeallocBlockExecutor.h */,
-				CD1A922920451F8A00A0BFAC /* UISearchBar+Theme.h */,
-				CD1A922A20451F8A00A0BFAC /* UIImage+KIAdditions.h */,
-				CD1A922B20451F8A00A0BFAC /* UIView+Theme.h */,
-				CD1A922C20451F8A00A0BFAC /* SkinColors.plist */,
-				CD1A922D20451F8A00A0BFAC /* UILabel+Theme.h */,
-				CD1A922E20451F8A00A0BFAC /* UIButton+Theme.m */,
-				CD1A922F20451F8A00A0BFAC /* NSObject+DeallocBlock.m */,
+				CD1A922220451F8A00A0BFAC /* ThemeManager.m */,
+				CD1A923E2045222700A0BFAC /* plist */,
+				CD1A923D204521D900A0BFAC /* Extensions */,
 			);
 			path = Theme;
+			sourceTree = "<group>";
+		};
+		CD1A923A2045211A00A0BFAC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD1A923C2045219000A0BFAC /* NavigationController */,
+				CD1A923B2045217F00A0BFAC /* RootViewController */,
+				CD1A921420451F5200A0BFAC /* SwitchThemeController.h */,
+				CD1A921620451F5300A0BFAC /* SwitchThemeController.m */,
+				CD1A91E220451F0F00A0BFAC /* ViewController.h */,
+				CD1A91E320451F0F00A0BFAC /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CD1A923B2045217F00A0BFAC /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CD1A921220451F5200A0BFAC /* RootTabBarController.h */,
+				CD1A921520451F5300A0BFAC /* RootTabBarController.m */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		CD1A923C2045219000A0BFAC /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				CD1A921320451F5200A0BFAC /* BaseNavigationController.h */,
+				CD1A921120451F5200A0BFAC /* BaseNavigationController.m */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		CD1A923D204521D900A0BFAC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CD1A9241204526A600A0BFAC /* ExtensionsHeader.h */,
+				CD1A92402045246D00A0BFAC /* NSObject */,
+				CD1A923F2045239600A0BFAC /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CD1A923E2045222700A0BFAC /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				CD1A922C20451F8A00A0BFAC /* SkinColors.plist */,
+			);
+			path = plist;
+			sourceTree = "<group>";
+		};
+		CD1A923F2045239600A0BFAC /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				CD1A922920451F8A00A0BFAC /* UISearchBar+Theme.h */,
+				CD1A921F20451F8A00A0BFAC /* UISearchBar+Theme.m */,
+				CD1A922B20451F8A00A0BFAC /* UIView+Theme.h */,
+				CD1A921D20451F8A00A0BFAC /* UIView+Theme.m */,
+				CD1A922A20451F8A00A0BFAC /* UIImage+KIAdditions.h */,
+				CD1A921E20451F8A00A0BFAC /* UIImage+KIAdditions.m */,
+				CD1A922120451F8A00A0BFAC /* UIColor+KIAdditions.m */,
+				CD1A922720451F8A00A0BFAC /* UIColor+KIAdditions.h */,
+				CD1A922D20451F8A00A0BFAC /* UILabel+Theme.h */,
+				CD1A922320451F8A00A0BFAC /* UILabel+Theme.m */,
+				CD1A922520451F8A00A0BFAC /* UIButton+Theme.h */,
+				CD1A922E20451F8A00A0BFAC /* UIButton+Theme.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		CD1A92402045246D00A0BFAC /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				CD1A922420451F8A00A0BFAC /* NSObject+DeallocBlock.h */,
+				CD1A922F20451F8A00A0BFAC /* NSObject+DeallocBlock.m */,
+			);
+			path = NSObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,7 +403,6 @@
 				CD1A921920451F5300A0BFAC /* SwitchThemeController.m in Sources */,
 				CD1A923220451F8B00A0BFAC /* UISearchBar+Theme.m in Sources */,
 				CD1A923120451F8B00A0BFAC /* UIImage+KIAdditions.m in Sources */,
-				CD1A923320451F8B00A0BFAC /* DeallocBlockExecutor.m in Sources */,
 				CD1A923520451F8B00A0BFAC /* ThemeManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
