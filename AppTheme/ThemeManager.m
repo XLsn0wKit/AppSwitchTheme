@@ -1,10 +1,3 @@
-//
-//  ThemeManager.m
-//  testHome
-//
-//  Created by smok on 2017/5/5.
-//  Copyright © 2017年 xinyuly. All rights reserved.
-//
 
 #import "ThemeManager.h"
 
@@ -55,8 +48,7 @@ static NSString *ThemeName;
 }
 
 - (void)loadSkinColor {
-    NSString *colorPlistName = [NSString stringWithFormat:@"SkinColors.plist"];
-    NSString *colorPlistPath = [[NSBundle mainBundle] pathForResource:colorPlistName ofType:nil];
+    NSString *colorPlistPath = [[NSBundle mainBundle] pathForResource:@"SkinColors.plist" ofType:nil];
     
     NSDictionary *skinDict  = [NSDictionary dictionaryWithContentsOfFile:colorPlistPath];
     NSDictionary *colorDict = skinDict[ThemeName];
