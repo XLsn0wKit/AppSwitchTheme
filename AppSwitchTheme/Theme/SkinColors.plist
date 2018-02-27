@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Red</key>
+	<dict>
+		<key>kMainColor</key>
+		<string>229, 38, 42,1</string>
+		<key>kSubColor</key>
+		<string>100,20,40,1</string>
+		<key>KTextColor</key>
+		<string>55,60,40,1</string>
+		<key>KBackgroundColor</key>
+		<string>25,25,25,1</string>
+	</dict>
+	<key>Green</key>
+	<dict>
+		<key>kMainColor</key>
+		<string>20, 208, 25,1</string>
+		<key>kSubColor</key>
+		<string>229, 38, 42,1</string>
+		<key>KTextColor</key>
+		<string>80,30,140,1</string>
+		<key>KBackgroundColor</key>
+		<string>250,25,25,1</string>
+	</dict>
+	<key>Blue</key>
+	<dict>
+		<key>kMainColor</key>
+		<string>#476bb3</string>
+		<key>kSubColor</key>
+		<string>#30b3f0</string>
+		<key>KTextColor</key>
+		<string>100,120,140,1</string>
+		<key>KBackgroundColor</key>
+		<string>25,125,25,1</string>
+	</dict>
+</dict>
+</plist>
