@@ -27,6 +27,14 @@
 		CDF47BE720452BFF00059B41 /* UILabel+Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF47BD520452BFF00059B41 /* UILabel+Theme.m */; };
 		CDF47BE820452BFF00059B41 /* UIButton+Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF47BDC20452BFF00059B41 /* UIButton+Theme.m */; };
 		CDF47BE920452BFF00059B41 /* NSObject+DeallocBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF47BDF20452BFF00059B41 /* NSObject+DeallocBlock.m */; };
+		CDF47BF220454B8800059B41 /* MMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF47BEA20454B8700059B41 /* MMNavigationController.m */; };
+		CDF47BF320454B8800059B41 /* MMSkinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF47BEC20454B8800059B41 /* MMSkinViewController.m */; };
+		CDF47BF420454B8800059B41 /* MMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF47BED20454B8800059B41 /* MMTabBarController.m */; };
+		CDF47BFE20454C0400059B41 /* MMTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF47BF620454C0300059B41 /* MMTabBar.m */; };
+		CDF47BFF20454C0400059B41 /* NSObject+MMSkinManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF47BF720454C0400059B41 /* NSObject+MMSkinManager.m */; };
+		CDF47C0020454C0400059B41 /* UIView+MMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF47BF920454C0400059B41 /* UIView+MMExtension.m */; };
+		CDF47C0120454C0400059B41 /* MMShineManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF47BFA20454C0400059B41 /* MMShineManager.m */; };
+		CDF47C0420454C2800059B41 /* AppTheme.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CDF47C0320454C2800059B41 /* AppTheme.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +95,21 @@
 		CDF47BDE20452BFF00059B41 /* NSObject+DeallocBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DeallocBlock.h"; sourceTree = "<group>"; };
 		CDF47BDF20452BFF00059B41 /* NSObject+DeallocBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DeallocBlock.m"; sourceTree = "<group>"; };
 		CDF47BE020452BFF00059B41 /* ThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeManager.h; sourceTree = "<group>"; };
+		CDF47BEA20454B8700059B41 /* MMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMNavigationController.m; sourceTree = "<group>"; };
+		CDF47BEB20454B8700059B41 /* MMTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTabBarController.h; sourceTree = "<group>"; };
+		CDF47BEC20454B8800059B41 /* MMSkinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSkinViewController.m; sourceTree = "<group>"; };
+		CDF47BED20454B8800059B41 /* MMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMTabBarController.m; sourceTree = "<group>"; };
+		CDF47BF020454B8800059B41 /* MMSkinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMSkinViewController.h; sourceTree = "<group>"; };
+		CDF47BF120454B8800059B41 /* MMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMNavigationController.h; sourceTree = "<group>"; };
+		CDF47BF620454C0300059B41 /* MMTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMTabBar.m; sourceTree = "<group>"; };
+		CDF47BF720454C0400059B41 /* NSObject+MMSkinManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MMSkinManager.m"; sourceTree = "<group>"; };
+		CDF47BF820454C0400059B41 /* NSObject+MMSkinManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MMSkinManager.h"; sourceTree = "<group>"; };
+		CDF47BF920454C0400059B41 /* UIView+MMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MMExtension.m"; sourceTree = "<group>"; };
+		CDF47BFA20454C0400059B41 /* MMShineManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMShineManager.m; sourceTree = "<group>"; };
+		CDF47BFB20454C0400059B41 /* MMShineManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMShineManager.h; sourceTree = "<group>"; };
+		CDF47BFC20454C0400059B41 /* UIView+MMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MMExtension.h"; sourceTree = "<group>"; };
+		CDF47BFD20454C0400059B41 /* MMTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTabBar.h; sourceTree = "<group>"; };
+		CDF47C0320454C2800059B41 /* AppTheme.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AppTheme.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				CDF47BCA20452BFE00059B41 /* AppTheme */,
+				CD1A923A2045211A00A0BFAC /* Controllers */,
 				CD1A91DE20451F0F00A0BFAC /* AppSwitchTheme */,
 				CD1A91F720451F0F00A0BFAC /* AppSwitchThemeTests */,
 				CD1A920220451F0F00A0BFAC /* AppSwitchThemeUITests */,
@@ -140,7 +164,6 @@
 			children = (
 				CD1A91DF20451F0F00A0BFAC /* AppDelegate.h */,
 				CD1A91E020451F0F00A0BFAC /* AppDelegate.m */,
-				CD1A923A2045211A00A0BFAC /* Controllers */,
 				CD1A91E520451F0F00A0BFAC /* Main.storyboard */,
 				CD1A91E820451F0F00A0BFAC /* Assets.xcassets */,
 				CD1A91EA20451F0F00A0BFAC /* LaunchScreen.storyboard */,
@@ -171,8 +194,10 @@
 		CD1A923A2045211A00A0BFAC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				CDF47BF020454B8800059B41 /* MMSkinViewController.h */,
+				CDF47BEC20454B8800059B41 /* MMSkinViewController.m */,
+				CD1A923B2045217F00A0BFAC /* TabBarController */,
 				CD1A923C2045219000A0BFAC /* NavigationController */,
-				CD1A923B2045217F00A0BFAC /* RootViewController */,
 				CD1A921420451F5200A0BFAC /* SwitchThemeController.h */,
 				CD1A921620451F5300A0BFAC /* SwitchThemeController.m */,
 				CD1A91E220451F0F00A0BFAC /* ViewController.h */,
@@ -181,18 +206,22 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		CD1A923B2045217F00A0BFAC /* RootViewController */ = {
+		CD1A923B2045217F00A0BFAC /* TabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				CDF47BEB20454B8700059B41 /* MMTabBarController.h */,
+				CDF47BED20454B8800059B41 /* MMTabBarController.m */,
 				CD1A921220451F5200A0BFAC /* RootTabBarController.h */,
 				CD1A921520451F5300A0BFAC /* RootTabBarController.m */,
 			);
-			path = RootViewController;
+			path = TabBarController;
 			sourceTree = "<group>";
 		};
 		CD1A923C2045219000A0BFAC /* NavigationController */ = {
 			isa = PBXGroup;
 			children = (
+				CDF47BF120454B8800059B41 /* MMNavigationController.h */,
+				CDF47BEA20454B8700059B41 /* MMNavigationController.m */,
 				CD1A921320451F5200A0BFAC /* BaseNavigationController.h */,
 				CD1A921120451F5200A0BFAC /* BaseNavigationController.m */,
 			);
@@ -204,6 +233,11 @@
 			children = (
 				CDF47BE020452BFF00059B41 /* ThemeManager.h */,
 				CDF47BCD20452BFF00059B41 /* ThemeManager.m */,
+				CDF47BFB20454C0400059B41 /* MMShineManager.h */,
+				CDF47BFA20454C0400059B41 /* MMShineManager.m */,
+				CDF47BFD20454C0400059B41 /* MMTabBar.h */,
+				CDF47BF620454C0300059B41 /* MMTabBar.m */,
+				CDF47C0220454C0B00059B41 /* bundle */,
 				CDF47BCB20452BFE00059B41 /* plist */,
 				CDF47BCE20452BFF00059B41 /* Extensions */,
 			);
@@ -221,6 +255,10 @@
 		CDF47BCE20452BFF00059B41 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				CDF47BF820454C0400059B41 /* NSObject+MMSkinManager.h */,
+				CDF47BF720454C0400059B41 /* NSObject+MMSkinManager.m */,
+				CDF47BFC20454C0400059B41 /* UIView+MMExtension.h */,
+				CDF47BF920454C0400059B41 /* UIView+MMExtension.m */,
 				CDF47BCF20452BFF00059B41 /* ExtensionsHeader.h */,
 				CDF47BD020452BFF00059B41 /* UIKit */,
 				CDF47BDD20452BFF00059B41 /* NSObject */,
@@ -254,6 +292,14 @@
 				CDF47BDF20452BFF00059B41 /* NSObject+DeallocBlock.m */,
 			);
 			path = NSObject;
+			sourceTree = "<group>";
+		};
+		CDF47C0220454C0B00059B41 /* bundle */ = {
+			isa = PBXGroup;
+			children = (
+				CDF47C0320454C2800059B41 /* AppTheme.bundle */,
+			);
+			path = bundle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,6 +411,7 @@
 				CD1A91EC20451F0F00A0BFAC /* LaunchScreen.storyboard in Resources */,
 				CDF47BE120452BFF00059B41 /* SkinColors.plist in Resources */,
 				CD1A91E920451F0F00A0BFAC /* Assets.xcassets in Resources */,
+				CDF47C0420454C2800059B41 /* AppTheme.bundle in Resources */,
 				CD1A91E720451F0F00A0BFAC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,19 +438,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDF47BE920452BFF00059B41 /* NSObject+DeallocBlock.m in Sources */,
+				CDF47BF420454B8800059B41 /* MMTabBarController.m in Sources */,
 				CDF47BE620452BFF00059B41 /* UIColor+KIAdditions.m in Sources */,
 				CDF47BE320452BFF00059B41 /* UIView+Theme.m in Sources */,
 				CD1A921720451F5300A0BFAC /* BaseNavigationController.m in Sources */,
 				CDF47BE220452BFF00059B41 /* ThemeManager.m in Sources */,
 				CDF47BE420452BFF00059B41 /* UIImage+KIAdditions.m in Sources */,
+				CDF47BF220454B8800059B41 /* MMNavigationController.m in Sources */,
 				CD1A921820451F5300A0BFAC /* RootTabBarController.m in Sources */,
+				CDF47C0020454C0400059B41 /* UIView+MMExtension.m in Sources */,
 				CD1A91E420451F0F00A0BFAC /* ViewController.m in Sources */,
 				CD1A91EF20451F0F00A0BFAC /* main.m in Sources */,
 				CD1A91E120451F0F00A0BFAC /* AppDelegate.m in Sources */,
 				CD1A921920451F5300A0BFAC /* SwitchThemeController.m in Sources */,
+				CDF47BFE20454C0400059B41 /* MMTabBar.m in Sources */,
 				CDF47BE820452BFF00059B41 /* UIButton+Theme.m in Sources */,
+				CDF47BFF20454C0400059B41 /* NSObject+MMSkinManager.m in Sources */,
 				CDF47BE720452BFF00059B41 /* UILabel+Theme.m in Sources */,
 				CDF47BE520452BFF00059B41 /* UISearchBar+Theme.m in Sources */,
+				CDF47BF320454B8800059B41 /* MMSkinViewController.m in Sources */,
+				CDF47C0120454C0400059B41 /* MMShineManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

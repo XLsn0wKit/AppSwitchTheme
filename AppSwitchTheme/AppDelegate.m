@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 #import "RootTabBarController.h"
 
+#import "MMTabBarController.h"
+#import "NSObject+MMSkinManager.h"
+
 @interface AppDelegate ()
 
 @end
@@ -19,9 +22,31 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [self.window makeKeyAndVisible];
-    RootTabBarController *tabVC = [[RootTabBarController alloc] init];
+    MMTabBarController *tabVC = [[MMTabBarController alloc] init];
     self.window.rootViewController = tabVC;
     return YES;
+}
+
+/**
+ * 设置全局颜色属性
+ */
+- (void)setupGlobalAppearanceColor {
+    
+    // 全局设置UINavigationBar/UITabBar外观属性
+    NSString *colorString = [[NSUserDefaults standardUserDefaults] objectForKey:@"MMSkinColor"];
+    if (colorString == nil) {
+        [self mm_setSkinColor:[UIColor orangeColor]];
+    } else {
+        
+        NSArray *rgbArr = [colorString componentsSeparatedByString:@" "];
+        // 红色
+        CGFloat red = [[rgbArr objectAtIndex:1] floatValue];
+        CGFloat green = [[rgbArr objectAtIndex:2] floatValue];
+        CGFloat blue = [[rgbArr objectAtIndex:3] floatValue];
+        CGFloat alpha = [[rgbArr objectAtIndex:4] floatValue];
+        UIColor *color = [UIColor colorWithRed:red green:green blue:blue alpha:alpha];
+        [self mm_setSkinColor:color];
+    }
 }
 
 
